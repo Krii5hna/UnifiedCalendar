@@ -1,0 +1,23 @@
+[project]
+name = "UnifiedCalendar"
+version = "0.1.0"
+description = "A short description of your project"
+authors = [
+    { name="Krishna Praneeth Vasamsetti", email="krishnapraneeth333@gmail.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["sample", "python", "project"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev = ["black", "pytest", "mypy"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
